@@ -1,0 +1,40 @@
+/* banner start */
+.project-banner{background:url("/assets/images/trade19.jpg"); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);  padding: 180px 0 120px; background-size:cover}
+.project-banner h2{font-family: Raleway; font-size: 59px; color: #fff;line-height: 68px;text-shadow: 4px 2px 7px #000;}
+.project-banner h4{font-family: Raleway; color: #fff; text-shadow: 4px 2px 7px #000;     font-size: 38px;padding: 10px 0;}
+.project-divider{background: url(/assets/images/waves-shape.svg);     height: 48em;margin-top: -47em;}
+/* banner end */
+
+.btn-contact{padding:21px; z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 0px; letter-spacing: 2px;font-weight: 700;font-size: 15px;border-color: transparent;transform-origin: 181.914px 33px;    opacity: 1;     margin-top: 10px; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.btn-contact:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+.form-sec{background:url("/assets/images/inner_contact.jpg"); background-size: cover }
+.contact-form {padding:140px 55px 114px 55px;}
+.contact-form input {height: 49px; border-radius: 0; margin-bottom: 2px; background: rgba(255,255,255,0.6);}
+.contact-form textarea { height: 115px; background: rgba(255,255,255,0.6);}
+.form-sec h5{padding: 60px 0 20px;}
+.title-section{text-align: right}
+.title-section h5 {
+    padding: 108px 0 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.title-section h2 {
+    padding: 15px 0 42px;
+    font-family: 'Raleway';
+    font-size: 37px;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+.project-banner h2 {font-size: 36px;line-height: 39px;}
+.project-banner {padding: 132px 0 35px;}
+.project-divider{background: url(/assets/images/waves-shape.svg);height: 12em;margin-top: -11em;background-repeat: no-repeat;}
+.project-sec h3 {  font-size: 28px;  line-height: 35px;margin-bottom: 5px;}
+.title-section h5{padding: 15px 0 20px;}
+.title-section h2{ padding: 15px 0 42px; font-family: 'Raleway';    font-size: 22px;}
+.title-section{ padding-bottom: 21px;}
+.contact-form { padding: 39px 20px 53px 20px;}
+
+
+}

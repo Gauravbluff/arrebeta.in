@@ -1,0 +1,64 @@
+/* banner start */
+.project-banner{background:url("/assets/images/trade19.jpg"); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);  padding: 200px 0 205px; background-size:cover}
+.project-banner h2{font-family: Raleway; font-size: 59px; color: #fff;line-height: 68px;text-shadow: 4px 2px 7px #000;}
+.project-banner h4{font-family: Raleway; color: #fff; text-shadow: 4px 2px 7px #000;     font-size: 38px;padding: 10px 0;}
+.project-divider{background: url(/assets/images/waves-shape.svg);     height: 48em;margin-top: -47em;}
+/* banner end */
+
+/* PROJECT SECTION START */
+.project-sec {padding: 10px 0 65px;  margin-top:70px;}
+.project-sec h3{  font-family: Raleway;  font-size: 44px;line-height: 54px; font-weight: bold;margin-bottom: 10px;}
+.project-sec p{font-family: Raleway; font-style: italic; font-size: 22px;line-height: 32px;font-weight: normal;   color: #333333;margin-bottom: 70px; margin-top:40px; width:72%}
+.line-hr {height: 7px;opacity: 1;width: 150px;background-image: linear-gradient(90deg, rgba(132,38,176,1) 25%, rgba(189,2,131,1) 53%, rgba(236,75,60,1) 65%);position: relative;left: 30em;}
+.desc-sec p {font-size: 15px !important;font-family: 'Raleway';font-style: normal !important;width: 100% !important;margin: 8px !important;font-weight: 500 !important;}
+.btn-contact{padding:21px; z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 0px; letter-spacing: 2px;font-weight: 700;font-size: 15px;border-color: transparent;transform-origin: 181.914px 33px;    opacity: 1;     margin-top: 10px; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.btn-contact:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+/* PROJECT SECTION END */
+
+/* TIME START */
+.text-area-head h4{    font-size: 44px;line-height: 54px;     font-weight: bold;  color: #ffffff;}
+.time-sec{padding:40px 0; background: -webkit-linear-gradient(left, rgb(132, 38, 176) 10%, rgb(189, 2, 130) 54%, rgb(236, 75, 60) 95%);}
+/* TIME ENDS */
+
+
+/* PRODUCT SECTION START */
+
+.title h4 {
+    font-size: 22px;
+    font-family: 'Raleway';
+    padding: 10px 0;
+}
+.price {
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.description {
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding: 5px 0 20px;
+}
+.btn-buy{padding:21px; z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 0px; letter-spacing: 2px;font-weight: 700;font-size: 15px;border-color: transparent;transform-origin: 181.914px 33px;    opacity: 1;     margin-top: 10px; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.btn-buy:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+.black-simple{margin-left:10px;}
+.card{padding: 10px;}
+.image-wrapper img {
+    height: 218px;
+    width: 100%;
+    object-fit: cover;
+}
+.product-sec{padding:90px 0}
+.row2{padding-top:30px;}
+
+@media only screen and (max-width: 767px)
+{
+.project-banner h2 {font-size: 36px;line-height: 39px;}
+.project-banner {padding: 173px 0 101px;}
+.project-divider{background: url(/assets/images/waves-shape.svg);height: 12em;margin-top: -11em;background-repeat: no-repeat;}
+.project-sec h3 {  font-size: 28px;  line-height: 35px;margin-bottom: 5px;}
+.line-hr {  left: 68px;}
+.project-sec p{ font-size: 17px;  line-height: 22px;    margin-bottom: 19px;margin-top: 0;width: 100%;}
+.text-area-head h4{   font-size: 22px;line-height: 32px;font-family: 'Raleway';}    
+.time-sec { padding: 20px 0;}
+.black-simple{  margin-left: 0px;}
+.card{   margin-bottom: 15px;}
+}

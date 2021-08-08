@@ -1,0 +1,104 @@
+/* BANNER CSS START */
+.banner{ position: relative;width: 100%;min-height: 657px;top: 0;background-color: transparent;}
+.banner .owl-dots,.banner .owl-nav{display: none;}
+.owl-banner.banner .item figure{float: left;width: 100%;height: 635px;}
+.owl-banner.banner .item figure img{float: left;width: 100%;height: 100%;     object-fit: cover; object-position: top}
+.item{float: left;width: 101%;height: 100%;}
+.banner-content{width: 100%;position: absolute;z-index: 111;float: left;color: #fff;top: 55%;transform: translateY(-50%);padding: 0 50px;margin-bottom: 0;}
+.banner-content h1{z-index:13; font-family: Raleway;color: rgb(255, 255, 255); text-align: center;line-height: 80px;font-weight: 400;font-size: 70px;visibility: visible;}
+.banner-content h2{z-index: 16;font-family: Raleway;color: rgb(255, 255, 255);text-decoration: none;text-align: center;line-height: 134px;letter-spacing: 0px;font-weight: 700;font-size: 124px;opacity: 1;}
+.banner-info{margin-bottom: 20px;}
+.banner-img img{height: 150px; width:auto; position: relative; left: 36em;}
+.quality{font-size: 30px;margin-bottom: 20px;}
+.item::before{position: absolute;content: '';top: 0;right: 0;left: 0;display: inline-block;background-color: rgba(0, 0, 0, 0.6); z-index: 11;min-height: 635px;}
+.banner-btn .btn{ z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 34px; letter-spacing: 0px;font-weight: 700;font-size: 24px;border-color: transparent;padding: 16px 40px;transform-origin: 181.914px 33px;    opacity: 1; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.banner-btn .btn:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+/* .exp-info{ background: transparent linear-gradient( 90deg , #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;float: left;margin-right: 20px;color: #fff;} */
+/* .exp-info:hover{background: transparent linear-gradient( 90deg , #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;background-color: transparent;color: #fff;} */
+/* BANNER CSS END */
+
+/* LOOKING SECTION START */
+.looking-for-sec {padding: 0px 0 65px;}
+.looking-for-sec h3{  font-family: Raleway;  font-size: 44px;line-height: 54px; font-weight: bold;margin-bottom: 10px;}
+.line-hr {height: 7px;opacity: 1;width: 150px;background-image: linear-gradient(90deg, rgba(132,38,176,1) 25%, rgba(189,2,131,1) 53%, rgba(236,75,60,1) 65%);position: relative;left: 30em;}
+.looking-for-sec p{font-family: Raleway; font-style: italic; font-size: 22px;line-height: 32px;font-weight: normal;   color: #333333;margin-bottom: 70px; margin-top:40px; width:72%}
+.looking-for-div {transition: 0.5s;position: relative;left: 7em;background: linear-gradient( 135deg,#8426b0 3%,#bd0283 47%,#ec4b3c 98%)!important;height: 129px;width: 129px;border-radius: 50%;}
+.looking-for-div:hover {transform: scale(1.2);}
+.looking-for-div img {height: 61px;top: 33px;position: relative;}
+.caption-looking a { text-decoration: none; position: relative;  top: 28px;font-size: 27px;font-family: 'Raleway';line-height: 37px;color: #000;font-weight: 700;}
+/* LOOKING SECTION END */
+
+/* HELP SECTION START */
+.help-you-sec {padding: 50px 0 65px;  margin-top:70px;  background:rgba(170, 170, 170, 0.1)}
+.help-you-sec h3{  font-family: Raleway;  font-size: 44px;line-height: 54px; font-weight: bold;margin-bottom: 10px;}
+.help-you-sec p{font-family: Raleway; font-style: italic; font-size: 22px;line-height: 32px;font-weight: normal;   color: #333333;margin-bottom: 70px; margin-top:40px; width:72%}
+.help-div i{font-size: 30px;background: -webkit-linear-gradient(90deg, rgba(132,38,176,1) 25%, rgba(189,2,131,1) 53%, rgba(236,75,60,1) 65%);-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.help-div span {font-size: 25px;font-family: 'Raleway';position: relative; top: -9px; left: 14px;font-weight: 500; letter-spacing: -1px;}
+.help-div {margin: 13px 0;}
+/* HELP SECTION END */
+
+
+/* TIME START */
+.text-area-head h4{    font-size: 44px;line-height: 54px;     font-weight: bold;  color: #ffffff;}
+.time-sec{padding:40px 0; background: -webkit-linear-gradient(left, rgb(132, 38, 176) 10%, rgb(189, 2, 130) 54%, rgb(236, 75, 60) 95%);}
+/* TIME ENDS */
+
+/* PROJECT START */
+.project-sec {padding: 10px 0 65px;  margin-top:70px;}
+.project-sec h3{  font-family: Raleway;  font-size: 44px;line-height: 54px; font-weight: bold;margin-bottom: 10px;}
+.project-sec p{font-family: Raleway; font-style: italic; font-size: 22px;line-height: 32px;font-weight: normal;   color: #333333;margin-bottom: 70px; margin-top:40px; width:72%}
+.caption h4 {font-family: 'Raleway';font-size: 25px;font-weight: 600;}
+.caption a {text-decoration: none; color: #000;font-family: 'Raleway';font-size: 14px;}
+
+.btn-details{ z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 0px; letter-spacing: 0px;font-weight: 700;font-size: 13px;border-color: transparent;padding: 16px 11px;transform-origin: 181.914px 33px;    opacity: 1;     margin-top: 10px; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.btn-details:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+.outer-section {margin: 0 0 0 6px;     background: #f3f0ed;}
+.inner-section{padding: 15px;}
+.item1 {margin-left: 5px;}
+.inner-image1 {display: inline-block;overflow: hidden;            /* clip the excess when child gets bigger than parent */}
+.inner-image1 img {display: block;transition: transform .4s;   /* smoother zoom */}
+.inner-image1:hover img {transform: scale(1.3);transform-origin: 50% 50%;}
+
+/* PROJECT END */
+
+
+/* TALK START */
+.project-talk{ padding: 80px 0 80px;  margin-top:20px; background-image:url(/assets/images/trade10.jpg); box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6); background-attachment: fixed;}
+.project-talk h3{ color:#fff; font-family: Raleway;  font-size: 44px;line-height: 54px; font-weight: bold;margin-bottom: 10px;}
+.project-talk p{font-family: Raleway; font-style: italic; font-size: 22px;line-height: 32px;font-weight: normal;   color: #fff;margin-bottom: 70px; margin-top:20px;}
+.btn-talk{ margin-left:10px; z-index: 17;background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); font-family: Raleway; text-transform: uppercase;  cursor: pointer;outline: none;   box-shadow: none;box-sizing: border-box;   height: auto;width: auto;    color: rgb(255, 255, 255);text-decoration: none; white-space: nowrap; min-height: 0px;  min-width: 0px;  max-height: none; max-width: none; text-align: inherit;    line-height: 34px; letter-spacing: 0px;font-weight: 700;font-size: 24px;border-color: transparent;padding: 16px 40px;transform-origin: 181.914px 33px;    opacity: 1; transform: translate(0px, 0px);visibility: visible; border-width: 0px;border-radius: 0px;border-style: none;}
+.btn-talk:hover{background: linear-gradient(225deg , rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%); border-color: rgb(0,0,0); border-style: solid;}
+.project-talk .line-hr{height: 7px;opacity: 1;width: 150px;background-image: linear-gradient(90deg, rgba(132,38,176,1) 25%, rgba(189,2,131,1) 53%, rgba(236,75,60,1) 65%);position: relative;left: 12em;}
+/* TALK END */
+
+
+
+@media only screen and (max-width: 767px)
+{
+    .banner-content h1{line-height: 38px;font-size: 34px;}
+    .banner-content h2 { line-height: 59px;font-size: 59px;}
+    .banner-content {  top: 42%; }
+    .banner-btn .btn{    padding: 16px 8px; font-size: 15px;}
+    .item::before {min-height: 552px;}
+    .owl-banner.banner .item figure {height: 552px; }
+    .looking-for-sec h3{font-size: 31px;line-height: 33px;}
+    .looking-for-div{  left: 85px;  }
+    .caption-looking a{top: 0px;font-size: 21px; line-height: 26px; }
+    .caption-looking { margin: 21px 0;}
+    .help-you-sec h3{font-size: 24px;line-height: 20px;margin-bottom: 0px;}
+    .help-you-sec p{font-style: italic;  font-size: 17px; line-height: 33px; font-weight: normal;  color: #333333; margin-bottom: 67px; margin-top: 10px;  width: 100%; }
+    .help-div {   margin: 10px 0;padding-left: 18px;}
+    .help-div span{font-size: 18px;  top: -5px;   left: 19px; letter-spacing: 2px;}
+    .text-area-head h4{font-size: 19px;line-height: 24px; font-family: 'Raleway';}
+    .time-sec { padding: 20px 0;}
+    .project-sec h3{  font-size: 31px;  line-height: 37px; margin-bottom: 0px;}
+    .project-sec p{ font-size: 17px;  line-height: 22px;    margin-bottom: 19px;margin-top: 0;width: 100%;}
+    .line-hr {   left: 72px}
+    .project-talk h3 {font-size: 27px;line-height: 35px; margin-bottom: 10px;padding: 41px 0 0;}
+    .project-talk .line-hr {left:70px}
+    .project-talk p { font-size: 17px;  line-height: 29px;    margin-top: 20px;   text-align: center;}
+    .btn-talk{margin-left: 6px;font-size: 15px; padding: 9px 8px;;}
+    .project-talk { padding: 43px 0 80px;}
+    .looking-for-sec p {font-size: 16px;  width: 100%;}
+    .looking-for-sec {padding: 0px 0 0px;}
+}

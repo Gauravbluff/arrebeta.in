@@ -1,0 +1,14 @@
+.navigation.fixed-top {background: #fff;height: 100px; box-shadow: 0 0 8px #bbb}
+.nav-item a {padding: 38px 18px 38px 18px; font-family: 'Raleway';   font-weight: 700;color: rgb(60 54 54);}
+.nav-active {background: linear-gradient( 135deg ,#8426b0 3%,#bd0283 47%,#ec4b3c 98%);color: #fff !important;}
+.nav-item a:hover {background: linear-gradient( 360deg,#ffffff 0%,#f2f2f2 100%);  color: #000;}
+.nav-active:hover{background: linear-gradient( 135deg ,#8426b0 3%,#bd0283 47%,#ec4b3c 98%) !important;color: #fff !important;}
+
+
+@media only screen and (max-width: 767px)
+{
+    .navbar-brand img { height: 27px;}
+    .nav-item a{padding: 7px 18px 9px 18px;}
+    .navbar-nav { background: linear-gradient(   135deg    ,#8426b0 3%,#bd0283 47%,#ec4b3c 98%);   width: 110%;   left: -1em;   top: 50px; position: relative;}
+    .navbar-toggler-icon{border: 2px solid #9919a0;}
+}

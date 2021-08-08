@@ -1,0 +1,32 @@
+/*FOOTER CSS ENDS*/
+
+.footer{  padding: 100px 0; background: url(/assets/images/footer-bg.png); background-size: cover; box-shadow:inset 0 0 0 2000px rgba(139, 0, 0, 0);}
+.footer .form-group{margin-bottom: 0;}
+.footer-nav .logo{margin-bottom: 20px;}
+.footer-nav p{margin-bottom: 10px; color:#4A5764}
+.footer .form-group input{border: none;border-radius: 0;}
+.footer-nav h3{color:#013243;}
+.footer-nav ul{padding: 0}
+.footer-nav ul li{text-decoration: none !important; list-style-type: none;}
+.footer-nav ul li a{color: #4A5764 !important; text-decoration: none; float: left;width: auto; font-family: 'Signika Negative', sans-serif; font-size: 16px;line-height: 33px;}
+.footer-nav ul li a:hover{color: #1E0B9B !important;}
+.footer-nav ul li{float: left;width: 100%; padding: 0;}
+.footer-contact ul li a{width: 40px;height: 40px;     margin-right: 10px;  margin-bottom: 10px;    background: transparent linear-gradient(90deg, #1E0B9B 0%, #1e0b9b 100%) 0% 0% no-repeat padding-box;line-height: 40px;    color: #fff !important;text-align: center;    border-radius: 50%;float: left;}
+.foot-submit{ margin-top:9px; border: none; padding: 5px 20px; border-radius: 50px; background-color: #8b0000; color: #fff; transition: 0.8s; font-family: 'Signika Negative', sans-serif;cursor: pointer;}
+.foot-submit:hover{box-shadow: 0 0 10px #8b0000, 0 0 10px #8b0000, 0 0 5px #8b0000; padding: 5px 20px; border-radius: 50px; background-color: #fff; color: #000; transition: 0.8s; font-family: 'Signika Negative', sans-serif;cursor: pointer; }
+.footer-credit{background: linear-gradient( 135deg ,#8426b0 3%,#bd0283 47%,#ec4b3c 98%);   padding-top: 10px; padding-bottom: 20px }
+.logo img {height: 2em;}
+.footer-social img{    transition: 0.2s; height: 40px;padding-right: 5px;}
+.footer-social img:hover {    transform: scale(1.1);}
+.footer-social{padding: 20px 0}
+.footer-contact ul li a:hover {color: #fff !important;}
+.footer-credit p{color:#fff;}
+.footer-credit p a{color:#000; text-decoration: none}
+/*FOOTER CSS ENDS*/
+
+@media only screen and (max-width: 767px)
+{
+.logo img{ height: 32px; margin-bottom: 20px;}
+.footer-credit {  padding-bottom: 0px;}
+.footer{padding: 54px 0 20px;}
+}
